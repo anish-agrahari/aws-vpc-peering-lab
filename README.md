@@ -11,7 +11,8 @@
 - **Admin path:** laptop -> bastion (SSH/22) -> App-A / App-B via `ProxyJump`
 - **App path:** App-A <-> App-B over private IPs through the peering connection
 
-<img width="2752" height="1536" alt="architecture_aws-vpc" src="https://github.com/user-attachments/assets/180ad291-1cc6-4015-b07d-ba18372ffb3e" />
+<img width="2752" height="1536" alt="architecture_aws-vpc_" src="https://github.com/user-attachments/assets/ae68660d-c00d-499e-a1b4-edbb5f32b39d" />
+
 
 
 ## What This Project Demonstrates
