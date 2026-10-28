@@ -32,6 +32,10 @@ open the second SSH connection to App-B.
 | Peering creation fails | any overlapping CIDR on either VPC (incl. secondary) |
 | Permission denied (publickey) | key pair, IdentityFile, ec2-user — routing is fine if you reached auth |
 
+## Architecture
+<img width="2752" height="1536" alt="architecture_aws-vpc" src="https://github.com/user-attachments/assets/2cfd16a9-c016-45f1-a8ee-579767264407" />
+
+
 ## Can VPC B reach the internet via VPC A's IGW over peering?
 No — peering never provides transitive internet access. VPC B stays fully private
 (no NAT gateway needed, which keeps the lab free).
